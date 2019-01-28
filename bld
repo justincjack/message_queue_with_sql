@@ -1,0 +1,4 @@
+gcc mq.c -DSQLITE_THREADSAFE=1 -o mq -pthread -l sqlite3
+
+
+
