@@ -6,6 +6,10 @@
  * to modules in the request and return the data back to the requesting
  * module when the message has been serviced.
  * 
+ * Message queue will accept SQL statements from its connections
+ * and execute them asynchronously and return them when it's done.
+ * Message Queue spawns a new thread for every SQL query.
+ * 
  * 
  * https://github.com/justincjack/message_queue.git
 */

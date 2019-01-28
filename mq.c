@@ -1,6 +1,7 @@
 #include "mq.h"
 
 
+
 void sig_hand( int sgnl ) {
     printf("\nCTRL-C Caught...Shutting down...\n\n");
     ok_to_run = 0;
